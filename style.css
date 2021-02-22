@@ -2,7 +2,12 @@
 *{
     margin: 0;
     box-sizing: border-box;
+
     
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -83,7 +88,8 @@ header .hero-container .left p.i-am {
 
 header .hero-container .left h2 {
     font-size: 64px;
-    color: #fdfdfd
+    color: #fdfdfd;
+    text-transform: uppercase;
 }
 header .hero-container .left h2:nth-of-type(2) {
     margin-left: 20px;
@@ -145,6 +151,66 @@ section h2::after{
 section .section-content p:first-of-type{
     margin: 0;
 }
+
+/* Work Section */
+section .work-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn.light {
+    color: #fdfdfd;
+}
+
+
+/* Testimonial Section */
+.testimonials-section {
+    background: #07050d;
+    color: #fdfdfd;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 65px 120px 50px 120px;
+}
+
+.testimonials-section p {
+    color: #fdfdfd;
+    padding: 0 24px;
+
+}
+
+.testimonials-section .says img {
+    border-radius: 24px;   
+    transform: rotate(-4deg);
+}
+
+.testimonials-section .says h3 {
+    margin-top: 36px;
+    font-size: 24px;
+    margin-left: 24px;
+    color: #ff4d4d;
+}
+
+.testimonials-section .says .company-name {
+    margin-top: 0;
+    color: #ff4d4d;
+}
+
+.testimonials-section .testimonial-text {
+    padding-left: 100px;
+    padding-right: 48px;
+    font-size: 20px;
+}
+
+.testimonials-section .quoute-icon {
+    opacity: 0.5;
+    position: absolute;
+    opacity: 0.5;
+    top: 72px;
+    left: 95px;
+}
+
+
 
 
 
