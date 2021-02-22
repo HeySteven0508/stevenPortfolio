@@ -114,3 +114,37 @@ header .hero-container .left h2:nth-of-type(2) {
     height: 580px;
 }
 
+/* Section */
+
+section{
+    padding : 100px 50px;
+}
+
+section .section-content {
+    margin-left: 200px;
+}
+
+section h2 {
+    transform: rotate(-90deg);
+    position: absolute;
+    color: #cacaca;
+    font-size: 54px;
+    margin-top: 80px;
+
+}
+
+section h2::after{
+    content: "";
+    height: 10px;
+    width: 80px;
+    display: block;
+    background: #ff4d4d;
+    right: 0;
+    position: absolute;
+}
+section .section-content p:first-of-type{
+    margin: 0;
+}
+
+
+
